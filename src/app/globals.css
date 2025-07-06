@@ -23,4 +23,36 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+
+
 }
+.cont{
+  display: flex;
+  flex-direction: column;
+height: 400px ;
+width: 400px;
+background-color: rgb(80, 42, 116);
+place-items: center;
+margin-top:100px ;
+border-radius: 10px ;
+background-image: linear-gradient(#fff,rgb(80, 42, 116));
+
+
+}
+input{
+  background-color: #0a0a0a;
+  border-radius: 10px ;
+  display: flex;
+  text-align: center;
+  margin-top: 50px;}
+  button{
+    background-color: #ffffff;
+    margin-top: 30px;
+    width: 100px;
+    border-radius: 5px;
+    color: #0a0a0a;
+   cursor: pointer; 
+  }
